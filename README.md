@@ -34,5 +34,7 @@
 >
 >@Dounford-Felipe <i>(https://github.com/Dounford-Felipe)</i>
 >
+>@smitty-diamond-hunt <i>(https://github.com/smitty-diamond-hunt)</i>
+>
 
 <hr/>
