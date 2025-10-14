@@ -1,13 +1,14 @@
-| More information will be added soon... |
+>[!IMPORTANT]
+>📌 | More information will be added soon... |
 
 
+<hr/>
 
-📌
 
-📣 Changelog:
+📣 Changelog's:
 
   
-<details><summary>☆ [2025-10-14] - 17:56 (CET)</summary>
+<details><summary>[2025-10-14] - 17:56 (CET)</summary>
 <p>
 
 
@@ -20,3 +21,18 @@
 
 </p>
 </details> 
+
+
+<hr/>
+
+<b>★</b> <i>Thanks to all your helpful people who contributes to every communities out there in the wild, wild Network called the Internet 🌐.</i> <b>★</b>
+
+<br/>
+
+>[!NOTE]
+>@SleepyyDotNet <i>(https://github.com/SleepyyDotNet/)</i>
+>
+>@Dounford-Felipe <i>(https://github.com/Dounford-Felipe)</i>
+>
+
+<hr/>
