@@ -13,6 +13,7 @@
   • Added my own Test (.js)  Script for FlatMMO.
   
 </p> 
+</details>
 
 <details><summary>[2025-10-14] - 17:56 (CET)</summary>
 <p>
