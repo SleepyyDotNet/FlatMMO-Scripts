@@ -7,7 +7,13 @@
 
 📣 Changelog's:
 
+<details><summary>[2025-10-26] - 10:59 (CET)</summary>
+<p>
   
+  • Added my own Test (.js)  Script for FlatMMO.
+  
+</p> 
+
 <details><summary>[2025-10-14] - 17:56 (CET)</summary>
 <p>
 
