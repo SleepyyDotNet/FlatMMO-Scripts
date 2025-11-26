@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name         FlatMMO Play – Overview Style Button
-// @namespace    http://tampermonkey.net/
+// @name         FlatMMO Play – Overview Style Button by SleepyyNet
+// @namespace    https://github.com/SleepyyDotNet/FlatMMO-Scripts/blob/greasyfork/FlatMMO.Com-By-SleepyyNet.js
 // @version      1.2
 // @description  Adds an overview-style Play button for FlatMMO + credits, with optional auto-redirect.
 // @match        *://flatmmo.com/*
