@@ -7,10 +7,12 @@
 
 📣 Changelog's:
 
-<details><summary>[2025-10-26] - 10:59 (CET)</summary>
+<details><summary>[2025-10-26] - 11:16 (CET)</summary>
 <p>
   
   • Added my own Test (.js)  Script for FlatMMO.
+
+  • Added so©e more credits to README.MD.
   
 </p> 
 </details>
@@ -43,5 +45,16 @@
 >
 >@smitty-diamond-hunt <i>(https://github.com/smitty-diamond-hunt)</i>
 >
-
 <hr/>
+
+<br/>
+
+>[!NOTE]
+> 
+><font color="blue">Third-party contribution:</font>
+> 
+>@Taskade AI <i>(https://www.taskade.com/generate/programming/javascript)</i>
+> 
+<hr/>
+
+<br/>
