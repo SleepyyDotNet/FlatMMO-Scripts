@@ -12,7 +12,7 @@
   
   • Added my own Test (.js)  Script for FlatMMO.
 
-  • Added so©e more credits to README.MD.
+  • Added some more credits to README.MD.
   
 </p> 
 </details>
