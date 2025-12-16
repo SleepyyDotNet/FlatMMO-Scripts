@@ -1,11 +1,17 @@
 // ==UserScript==
-// @name         FlatMMO Play – Overview Style Button by SleepyyNet
-// @namespace    https://github.com/SleepyyDotNet/FlatMMO-Scripts/blob/greasyfork/FlatMMO.Com-By-SleepyyNet.js
-// @version      1.2
-// @description  Adds an overview-style Play button for FlatMMO + credits, with optional auto-redirect.
-// @match        *://flatmmo.com/*
-// @match        *://www.flatmmo.com/*
-// @run-at       document-end
+// @name             FlatMMO Play – Overview Style Button by SleepyyNet
+// @nameEN           FlatMMO Play – Overview Style Button by SleepyyNet
+// @namespace        https://github.com/SleepyyDotNet/FlatMMO-Scripts/blob/greasyfork/FlatMMO.Com-By-SleepyyNet.js
+// @namespaceEN      https://github.com/SleepyyDotNet/FlatMMO-Scripts/blob/greasyfork/FlatMMO.Com-By-SleepyyNet.js
+// @version          1.21
+// @versionEN          1.21
+// @description      Adds an overview-style Play button for FlatMMO + credits, with optional auto-redirect.
+// @descriptionEN    Adds an overview-style Play button for FlatMMO + credits, with optional auto-redirect.
+// @match            *://flatmmo.com/*
+// @match            *://www.flatmmo.com/*
+// @match            https://flatmmo.com/*
+// @match            https://www.flatmmo.com/*
+// @run-at           document-end
 // ==/UserScript==
 
 (function () {
@@ -125,10 +131,10 @@
   const path = location.pathname.toLowerCase();
 
   // Optional: auto-redirect from home to play (you can remove this if you only want the button)
-  if (path === "/" || path === "/index.php") {
-    setTimeout(() => {
-      window.location.href = PLAY_URL;
-    }, 500);
+  //if (path === "/" || path === "/index.php") {
+    //setTimeout(() => {
+      //window.location.href = PLAY_URL;
+    //}, 500);
   }
 
   // Show button on all pages except play.php
