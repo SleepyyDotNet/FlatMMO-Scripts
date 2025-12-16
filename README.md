@@ -7,8 +7,12 @@
 
 📣 Changelog's:
 
-<details><summary>[2025-12-16] - 17:22 (CET)</summary>
+<details><summary>[2025-12-16] - 18:16 (CET)</summary>
 <p>
+
+  • Update to version 1.21 in my script.
+  
+  • Added both EN & SV Translations into the code.
   
   • Some small Update's to the code in the script i made with Taskade AI, hopefully it will fix some issues with refreshing on the Website's Frontpage.
 
