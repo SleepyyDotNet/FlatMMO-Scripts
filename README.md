@@ -7,9 +7,13 @@
 
 📣 Changelog's:
 
-<details><summary>[2025-12-16] - 18:16 (CET)</summary>
+<details><summary>[2025-12-16] - 19:12 (CET)</summary>
 <p>
 
+  • Updated to 1.22.
+  
+  • Correction in line 6 in my script code and Spellchecking.
+  
   • Update to version 1.21 in my script.
   
   • Added both EN & SV Translations into the code.
