@@ -7,6 +7,16 @@
 
 📣 Changelog's:
 
+<details><summary>[2025-12-16] - 17:22 (CET)</summary>
+<p>
+  
+  • Some small Update's to the code in the script i made with Taskade AI, hopefully it will fix some issues with refreshing on the Website's Frontpage.
+
+  • I will try submitting my Script to Greasyfork.
+  
+</p> 
+</details>
+
 <details><summary>[2025-10-26] - 11:16 (CET)</summary>
 <p>
   
