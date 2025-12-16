@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         FlatMMO+ Pets
 // @namespace    com.dounford.flatmmo.piggie
-// @version      1.2.2
+// @version      1.4.1
 // @description  Adds custom Pets to the game
 // @author       Dounford
 // @license      MIT
@@ -48,6 +48,10 @@
                                 label: "Calico Slime Cat"
                             },
                             {
+                                value: "pumpkin",
+                                label: "Pumpking"
+                            },
+                            {
                                 value: "pizza",
                                 label: "Pizza"
                             },
@@ -60,6 +64,18 @@
                                 label: "Beer"
                             },
                         ]
+                    },
+                    {
+                        id: "randomize",
+                        label: "Randomize Selected Pet",
+                        type: "boolean",
+                        default: false
+                    },
+                    {
+                        id: "halloween",
+                        label: "Use Halloween Skin",
+                        type: "boolean",
+                        default: false
                     }
                 ]
             });
@@ -86,6 +102,9 @@
             } else {
                 ctx.drawImage(this.pets[this.currentPet][this.currentAction].get_frame(), players[Globals.local_username].client_x - 96, players[Globals.local_username].client_y - 25, 96, 96);
             }
+            if(this.config.randomize && Math.random() < 0.0000046296296296296296) {
+                this.randomizePet();
+            }
         }
  
         
@@ -94,7 +113,13 @@
         }
 
         onActionChanged() {
-            if(this.pets[this.currentPet].hasOwnProperty(FlatMMOPlus.currentAction)) {
+            if(this.config.halloween && this.pets[this.currentPet].hasOwnProperty("stand_halloween")) {
+                if(this.pets[this.currentPet].hasOwnProperty(FlatMMOPlus.currentAction + "_halloween")) {
+                    this.currentAction = FlatMMOPlus.currentAction + "_halloween";
+                } else {
+                    this.currentAction = "stand_halloween";
+                }
+            } else if(this.pets[this.currentPet].hasOwnProperty(FlatMMOPlus.currentAction)) {
                 this.currentAction = FlatMMOPlus.currentAction;
             }
         }
@@ -102,9 +127,13 @@
         changePet(pet) {
             this.currentPet = pet;
             this.currentAction = "stand";
-            if(this.pets[this.currentPet]?.hasOwnProperty(FlatMMOPlus.currentAction)) {
-                this.currentAction = FlatMMOPlus.currentAction;
-            }
+            this.onActionChanged();
+        }
+
+        randomizePet() {
+            const petArray = Object.keys(this.pets);
+            const newIndex = Math.floor(Math.random() * petArray.length);
+            this.changePet(petArray[newIndex])
         }
 
         addPets() {
@@ -117,12 +146,15 @@
             this.registerAnimation("pig","harpoon","2",25);
             this.registerAnimation("pig","mine_rock","2",15);
             this.registerAnimation("pig","chop_tree","2",20);
+            this.registerAnimation("pig","stand_halloween","2",50);
             
             this.pets.beer = {};
             this.registerAnimation("beer","stand","2",50);
+            this.registerAnimation("beer","stand_halloween","2",50);
             
             this.pets.capybara = {};
             this.registerAnimation("capybara","stand","2",50);
+            this.registerAnimation("capybara","stand_halloween","2",50);
             
             this.pets.blackSlimeCat = {};
             this.registerAnimation("blackSlimeCat","stand","2",50);
@@ -136,6 +168,10 @@
 
             this.pets.pizza = {};
             this.registerAnimation("pizza","stand","2",50);
+            this.registerAnimation("pizza","stand_halloween","2",50);
+
+            this.pets.pumpkin = {};
+            this.registerAnimation("pumpkin","stand","2",50);
         }
 
         registerAnimation(pet, animation, frames, speed) {

@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         FlatMMO+ HP Viewer
 // @namespace    com.dounford.flatmmo.hp
-// @version      1.0.1
+// @version      1.0.2
 // @description  Shows the enemy hp while fighting
 // @author       Dounford
 // @license      MIT
@@ -32,7 +32,7 @@
         onPaint() {
             for (let uuid in npcs) {
                 if (npcs.hasOwnProperty(uuid)) {
-                    if(npcs[uuid].in_combat) {
+                    if(npcs[uuid].in_combat && npcs[uuid].is_hidden === false) {
                         let max_hp = npcs[uuid].max_hp;
                         let hp = npcs[uuid].hp;
                         ctx.fillStyle = "white";
