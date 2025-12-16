@@ -1,16 +1,21 @@
 // ==UserScript==
 // @name             FlatMMO Play – Overview Style Button by SleepyyNet
-// @nameEN           FlatMMO Play – Overview Style Button by SleepyyNet
+// @name:en          FlatMMO Play – Overview Style Button by SleepyyNet
+// @name:sv          FlatMMOPlay - Översiktlig Stilknapp av SleepyyNet
 // @namespace        https://github.com/SleepyyDotNet/FlatMMO-Scripts/blob/greasyfork/FlatMMO.Com-By-SleepyyNet.js
-// @namespaceEN      https://github.com/SleepyyDotNet/FlatMMO-Scripts/blob/greasyfork/FlatMMO.Com-By-SleepyyNet.js
+// @namespace:en     https://github.com/SleepyyDotNet/FlatMMO-Scripts/blob/greasyfork/FlatMMO.Com-By-SleepyyNet.js
+// @namespace:sv     https://github.com/SleepyyDotNet/FlatMMO-Scripts/blob/greasyfork/ FlatMMO.Com-By-SleepyyNet.js
 // @version          1.21
-// @versionEN        1.21
+// @version:en       1.21
+// @version:sv       1.21
 // @description      Adds an overview-style Play button for FlatMMO + credits, with optional auto-redirect.
-// @descriptionEN    Adds an overview-style Play button for FlatMMO + credits, with optional auto-redirect.
+// @description:en   Adds an overview-style Play button for FlatMMO + credits, with optional auto-redirect.
+// @description:sv   Lägger till en översiktsliknande Spela-knapp för FlatMMO + krediter, med möjlig automatisk omdirigering.
 // @match            *://flatmmo.com/*
 // @match            *://www.flatmmo.com/*
 // @match            https://flatmmo.com/*
 // @match            https://www.flatmmo.com/*
+// @license MIT
 // @run-at           document-end
 // ==/UserScript==
 
@@ -128,7 +133,7 @@
     document.body.appendChild(container);
   }
 
-  const path = location.pathname.toLowerCase();
+  //const path = location.pathname.toLowerCase();
 
   // Optional: auto-redirect from home to play (you can remove this if you only want the button)
   //if (path === "/" || path === "/index.php") {
