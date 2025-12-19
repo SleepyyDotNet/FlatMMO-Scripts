@@ -2,9 +2,9 @@
 // @name             FlatMMO Play – Overview Style Button by SleepyyNet
 // @name:en          FlatMMO Play – Overview Style Button by SleepyyNet
 // @name:sv          FlatMMO Play - Översiktlig Stilknapp av SleepyyNet
-// @namespace        https://github.com/SleepyyDotNet/FlatMMO-Scripts/blob/greasyfork/FlatMMO.Com-By-SleepyyNet.js
-// @namespace:en     https://github.com/SleepyyDotNet/FlatMMO-Scripts/blob/greasyfork/FlatMMO.Com-By-SleepyyNet.js
-// @namespace:sv     https://github.com/SleepyyDotNet/FlatMMO-Scripts/blob/greasyfork/FlatMMO.Com-By-SleepyyNet.js
+// @namespace        https://github.com/SleepyyDotNet/FlatMMO-Scripts/blob/greasyfork/SleepyyNet/Scripts/[BETA]-FlatMMO.Com-By-SleepyyNet.js
+// @namespace:en     https://github.com/SleepyyDotNet/FlatMMO-Scripts/blob/greasyfork/SleepyyNet/Scripts/[BETA]-FlatMMO.Com-By-SleepyyNet.js
+// @namespace:sv     https://github.com/SleepyyDotNet/FlatMMO-Scripts/blob/greasyfork/SleepyyNet/Scripts/[BETA]-FlatMMO.Com-By-SleepyyNet.js
 // @version          1.23B
 // @version:en       1.23B
 // @version:sv       1.23B
