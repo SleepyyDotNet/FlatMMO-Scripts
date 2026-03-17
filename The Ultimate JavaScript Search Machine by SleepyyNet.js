@@ -1,9 +1,14 @@
 // ==UserScript==
+// @name            The Ultimate JavaScript Search Machine by SleepyyNet
 // @name:en         The Ultimate JavaScript Search Machine by SleepyyNet
 // @name:se         Den ultimata JavaScript-sökmaskinen av SleepyyNet
+// @namespace       http://tampermonkey.net/
 // @namespace:en    http://tampermonkey.net/
 // @namespace:se    http://tampermonkey.net/
 // @version         1.1
+// @version:en      1.1
+// @version:sv      1.1
+// @description     A powerful metasearch tool that searches all major userscript repositories (Greasy Fork, Sleazy Fork, OpenUserJS, Userscript.Zone, GitHub & Gist) simultaneously.
 // @description:en  A powerful metasearch tool that searches all major userscript repositories (Greasy Fork, Sleazy Fork, OpenUserJS, Userscript.Zone, GitHub & Gist) simultaneously.
 // @description:se  Ett kraftfullt metasök-verktyg som söker igenom alla stora arkiv för användarskript (Greasy Fork, Sleazy Fork, OpenUserJS, Userscript.Zone, GitHub & Gist) samtidigt.
 // @author          SleepyyNet
