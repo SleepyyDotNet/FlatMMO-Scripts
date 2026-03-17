@@ -20,6 +20,7 @@
 // @match           https://*/
 // @match           http://*/*
 // @match           https://*.google.*/*
+// @license         MIT
 // @grant           GM_registerMenuCommand
 // @grant           GM_openInTab
 // ==/UserScript==
