@@ -20,9 +20,13 @@
 // @match           https://*/
 // @match           http://*/*
 // @match           https://*.google.*/*
-// @license         MIT
 // @grant           GM_registerMenuCommand
 // @grant           GM_openInTab
+// @homepage        https://github.com/SleepyyDotNet/FlatMMO-Scripts
+// @repository      https://github.com/SleepyyDotNet/FlatMMO-Scripts
+// @downloadURL     https://raw.githubusercontent.com/SleepyyDotNet/FlatMMO-Scripts/refs/heads/greasyfork/The%20Ultimate%20JavaScript%20Search%20Machine%20by%20SleepyyNet.js
+// @updateURL       https://raw.githubusercontent.com/SleepyyDotNet/FlatMMO-Scripts/refs/heads/greasyfork/The%20Ultimate%20JavaScript%20Search%20Machine%20by%20SleepyyNet.js
+// @license         MIT
 // ==/UserScript==
 ​
 (function() {
