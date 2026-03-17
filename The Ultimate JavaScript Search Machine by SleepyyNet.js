@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name            The Ultimate JavaScript Search Machine by SleepyyNet
 // @name:en         The Ultimate JavaScript Search Machine by SleepyyNet
-// @name:sv         Den ultimata JavaScript-sökmaskinen av SleepyyNet
+// @name:sv         Den ultimata JavaScript-Sökmaskinen av SleepyyNet
 // @namespace       https://github.com/SleepyyDotNet/FlatMMO-Scripts/blob/greasyfork/The Ultimate JavaScript Search Machine by SleepyyNet.js
 // @namespace:en    https://github.com/SleepyyDotNet/FlatMMO-Scripts/blob/greasyfork/The Ultimate JavaScript Search Machine by SleepyyNet.js
 // @namespace:sv    https://github.com/SleepyyDotNet/FlatMMO-Scripts/blob/greasyfork/The Ultimate JavaScript Search Machine by SleepyyNet.js
