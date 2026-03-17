@@ -2,9 +2,9 @@
 // @name            The Ultimate JavaScript Search Machine by SleepyyNet
 // @name:en         The Ultimate JavaScript Search Machine by SleepyyNet
 // @name:se         Den ultimata JavaScript-sökmaskinen av SleepyyNet
-// @namespace       http://tampermonkey.net/
-// @namespace:en    http://tampermonkey.net/
-// @namespace:se    http://tampermonkey.net/
+// @namespace       https://github.com/SleepyyDotNet/FlatMMO-Scripts/blob/greasyfork/The Ultimate JavaScript Search Machine by SleepyyNet.js
+// @namespace:en    https://github.com/SleepyyDotNet/FlatMMO-Scripts/blob/greasyfork/The Ultimate JavaScript Search Machine by SleepyyNet.js
+// @namespace:se    https://github.com/SleepyyDotNet/FlatMMO-Scripts/blob/greasyfork/The Ultimate JavaScript Search Machine by SleepyyNet.js
 // @version         1.1
 // @version:en      1.1
 // @version:sv      1.1
