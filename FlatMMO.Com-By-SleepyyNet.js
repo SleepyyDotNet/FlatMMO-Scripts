@@ -11,6 +11,7 @@
 // @description      Adds an overview-style Play button for FlatMMO + credits, with optional auto-redirect.
 // @description:en   Adds an overview-style Play button for FlatMMO + credits, with optional auto-redirect.
 // @description:sv   Lägger till en översiktsliknande Spela-knapp för FlatMMO med krediter, samt valfri automatisk omdirigering.
+// @author           SleepyyNet
 // @match            *://flatmmo.com/*
 // @match            *://www.flatmmo.com/*
 // @match            https://flatmmo.com/*
