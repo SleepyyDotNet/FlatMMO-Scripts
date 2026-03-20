@@ -72,7 +72,9 @@
 ><font color="blue">Third-party contribution:</font>
 > 
 >@Taskade AI <i>(https://www.taskade.com/generate/programming/javascript)</i>
-> 
+>
+>@Gemini PRO AI <i>(https://gemini.google.com/)</i>
+>
 <hr/>
 
 <br/>
