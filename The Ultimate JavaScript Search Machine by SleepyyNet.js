@@ -16,7 +16,6 @@
 // @include         *
 // @match           *:///*
 // @match           *://*/*/*
-// @match           *://*/*/*
 // @match           https://*/
 // @match           http://*/*
 // @match           https://*.google.*/*
@@ -35,7 +34,7 @@
     // Huvudfunktion för att samla in sökord och öppna flika
     function searchAllDatabases() {
         // Fråga användaren efter sökord
-        let query = prompt("Sök i The Ultimate Machine:\nVad för typ av script letar du efter?");
+        let query = prompt("Search in The Ultimate JavaScript Search Machine:\nWhat type of script are you looking for?");
 ​
         // Avbryt om användaren klickar på 'Avbryt' eller lämnar tomt
         if (!query) return;
@@ -63,5 +62,5 @@
     }
 ​
     // Registrera kommandot i tilläggets meny
-    GM_registerMenuCommand("🔍 Sök med The Ultimate Machine", searchAllDatabases);
+    GM_registerMenuCommand("🔍 Search with The Ultimate JavaScript Search Machine", searchAllDatabases);
 })();
