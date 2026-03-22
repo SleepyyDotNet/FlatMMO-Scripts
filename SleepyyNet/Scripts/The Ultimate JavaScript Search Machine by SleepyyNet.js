@@ -5,9 +5,9 @@
 // @namespace       https://github.com/SleepyyDotNet/FlatMMO-Scripts/blob/greasyfork/The Ultimate JavaScript Search Machine by SleepyyNet.js
 // @namespace:en    https://github.com/SleepyyDotNet/FlatMMO-Scripts/blob/greasyfork/The Ultimate JavaScript Search Machine by SleepyyNet.js
 // @namespace:sv    https://github.com/SleepyyDotNet/FlatMMO-Scripts/blob/greasyfork/The Ultimate JavaScript Search Machine by SleepyyNet.js
-// @version         1.1
-// @version:en      1.1
-// @version:sv      1.1
+// @version         1.2
+// @version:en      1.2
+// @version:sv      1.2
 // @description     A powerful metasearch tool that searches all major userscript repositories (Greasy Fork, Sleazy Fork, OpenUserJS, Userscript.Zone, GitHub & Gist) simultaneously.
 // @description:en  A powerful metasearch tool that searches all major userscript repositories (Greasy Fork, Sleazy Fork, OpenUserJS, Userscript.Zone, GitHub & Gist) simultaneously.
 // @description:sv  Ett kraftfullt metasök-verktyg som söker igenom alla stora arkiv för användarskript (Greasy Fork, Sleazy Fork, OpenUserJS, Userscript.Zone, GitHub & Gist) samtidigt.
