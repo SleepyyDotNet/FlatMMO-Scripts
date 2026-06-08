@@ -1,5 +1,4 @@
 // ==UserScript==
-// ==UserScript==
 // @name            The Ultimate JavaScript Search Machine by SleepyyNet
 // @name:en         The Ultimate JavaScript Search Machine by SleepyyNet
 // @name:sv         Den ultimata JavaScript-Sökmaskinen av SleepyyNet
