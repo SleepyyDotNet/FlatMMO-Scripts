@@ -5,12 +5,19 @@
 // @namespace       https://github.com/SleepyyDotNet/FlatMMO-Scripts/blob/greasyfork/The Ultimate JavaScript Search Machine by SleepyyNet.js
 // @namespace:en    https://github.com/SleepyyDotNet/FlatMMO-Scripts/blob/greasyfork/The Ultimate JavaScript Search Machine by SleepyyNet.js
 // @namespace:sv    https://github.com/SleepyyDotNet/FlatMMO-Scripts/blob/greasyfork/The Ultimate JavaScript Search Machine by SleepyyNet.js
-// @version         2.1
-// @version:en      2.1
-// @version:sv      2.1
+// @version         2.11
+// @version:en      2.11
+// @version:sv      2.11
 // @description     A powerful metasearch tool that searches all major userscript repositories (Greasy Fork, Sleazy Fork, OpenUserJS, Userscript.Zone, GitHub & Gist) simultaneously.
 // @description:en  A powerful metasearch tool that searches all major userscript repositories (Greasy Fork, Sleazy Fork, OpenUserJS, Userscript.Zone, GitHub & Gist) simultaneously.
 // @description:sv  Ett kraftfullt metasök-verktyg som söker igenom alla stora arkiv för användarskript (Greasy Fork, Sleazy Fork, OpenUserJS, Userscript.Zone, GitHub & Gist) samtidigt.
+// @note            v2.11: Added "@note's" in the code with all the update changes made to it.
+// @note            v2.1: Added missing "@grant's" in the userscript that is necessary.
+// @note            v2.0: Major update with a lot of more customization for the UserScript. You can now enter a new Settings menu for the userscript by eather right-clicking the floating bubble or clicking the Setting button that are also avaliable for example in Violentmonkey/Tempermonkey sub-menu. Added Translations between English or Swedish. Added Customization for the Floating Bubble (to be able to change were the floating bubble should appear). Added so you can choose with websites the userscript should search on. Also made some small issues to the code that i noticed when testing the userscript before i releases it to the public.
+// @note            v1.5: Added a floating button that you can now use to search for UserScripts. (25% transparent when not hovering over with the mouse pointer). Some small adjustments in the code for all the different functions to work properly.
+// @note            v1.2: Fixed an error in the Metadata section of the code. Made the menu text translated over to English Language as default.
+// @note            v1.1: Small changes to the code. 
+// @note            v1.0: Initial release of the userscript.
 // @author          SleepyyNet
 // @match           *://*/*
 // @include         *
