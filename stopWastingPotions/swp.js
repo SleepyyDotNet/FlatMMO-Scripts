@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         FlatMMO Stop Wasting Potions
 // @namespace    com.dounford.flatmmo.swp
-// @version      1.0.0
+// @version      1.0.2
 // @description  Block potion usage if it will waste it
 // @author       Dounford
 // @license      MIT
@@ -36,13 +36,10 @@
         }
      
         onLogin() {
-            switch_panels("donor-shop");
-            switch_panels("inventory");
-            setTimeout(() => {
-                if(document.getElementById("ui-panel-donor-shop-silver-timer").innerHTML !== "Not Active" || document.getElementById("ui-panel-donor-shop-gold-timer").innerHTML !== "Not Active") {
-                    FlatMMOPlus.plugins.stopWastingPotions.isPremium = true;
-                }
-            },5000)
+            const premiumBtn = document.getElementById("top-bar-entry-profile-img").src.slice(30,-4);
+            if(premiumBtn === "silver" || premiumBtn === "gold" || premiumBtn === "diamond" || premiumBtn === "green") {
+                this.isPremium = true;
+            }
 
             const originalClick = window.clicks_inventory_item;
 			window.clicks_inventory_item = function(ele, item, current_amount, index) {
