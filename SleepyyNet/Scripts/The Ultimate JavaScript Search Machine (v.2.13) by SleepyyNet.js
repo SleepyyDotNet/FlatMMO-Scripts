@@ -2,9 +2,9 @@
 // @name         The Ultimate JavaScript Search Machine by SleepyyNet
 // @name:en      The Ultimate JavaScript Search Machine by SleepyyNet
 // @name:sv      Den ultimata JavaScript-Sökmaskinen av SleepyyNet
-// @namespace    https://github.com/SleepyyDotNet/FlatMMO-Scripts/blob/greasyfork/The%20Ultimate%20JavaScript%20Search%20Machine%20(v.2.13)%20by%20SleepyyNet.js
-// @namespace:en https://github.com/SleepyyDotNet/FlatMMO-Scripts/blob/greasyfork/The%20Ultimate%20JavaScript%20Search%20Machine%20(v.2.13)%20by%20SleepyyNet.js
-// @namespace:sv https://github.com/SleepyyDotNet/FlatMMO-Scripts/blob/greasyfork/The%20Ultimate%20JavaScript%20Search%20Machine%20(v.2.13)%20by%20SleepyyNet.js
+// @namespace    https://github.com/SleepyyDotNet/FlatMMO-Scripts/blob/greasyfork/SleepyyNet/Scripts/The%20Ultimate%20JavaScript%20Search%20Machine%20(v.2.13)%20by%20SleepyyNet.js
+// @namespace:en https://github.com/SleepyyDotNet/FlatMMO-Scripts/blob/greasyfork/SleepyyNet/Scripts/The%20Ultimate%20JavaScript%20Search%20Machine%20(v.2.13)%20by%20SleepyyNet.js
+// @namespace:sv https://github.com/SleepyyDotNet/FlatMMO-Scripts/blob/greasyfork/SleepyyNet/Scripts/The%20Ultimate%20JavaScript%20Search%20Machine%20(v.2.13)%20by%20SleepyyNet.js
 // @version      2.13
 // @version:en   2.13
 // @version:sv   2.13
