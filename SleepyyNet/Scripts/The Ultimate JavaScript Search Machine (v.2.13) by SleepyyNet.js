@@ -2,9 +2,9 @@
 // @name         The Ultimate JavaScript Search Machine by SleepyyNet
 // @name:en      The Ultimate JavaScript Search Machine by SleepyyNet
 // @name:sv      Den ultimata JavaScript-Sökmaskinen av SleepyyNet
-// @namespace    https://github.com/SleepyyDotNet/FlatMMO-Scripts/blob/greasyfork/The%20Ultimate%20JavaScript%20Search%20Machine%20by%20SleepyyNet.js
-// @namespace:en https://github.com/SleepyyDotNet/FlatMMO-Scripts/blob/greasyfork/The%20Ultimate%20JavaScript%20Search%20Machine%20by%20SleepyyNet.js
-// @namespace:sv https://github.com/SleepyyDotNet/FlatMMO-Scripts/blob/greasyfork/The%20Ultimate%20JavaScript%20Search%20Machine%20by%20SleepyyNet.js
+// @namespace    https://github.com/SleepyyDotNet/FlatMMO-Scripts/blob/greasyfork/The%20Ultimate%20JavaScript%20Search%20Machine%20(v.2.13)%20by%20SleepyyNet.js
+// @namespace:en https://github.com/SleepyyDotNet/FlatMMO-Scripts/blob/greasyfork/The%20Ultimate%20JavaScript%20Search%20Machine%20(v.2.13)%20by%20SleepyyNet.js
+// @namespace:sv https://github.com/SleepyyDotNet/FlatMMO-Scripts/blob/greasyfork/The%20Ultimate%20JavaScript%20Search%20Machine%20(v.2.13)%20by%20SleepyyNet.js
 // @version      2.13
 // @version:en   2.13
 // @version:sv   2.13
@@ -32,8 +32,8 @@
 // @grant        GM_getValue
 // @homepage     https://github.com/SleepyyDotNet/FlatMMO-Scripts
 // @repository   https://github.com/SleepyyDotNet/FlatMMO-Scripts
-// @downloadURL  https://raw.githubusercontent.com/SleepyyDotNet/FlatMMO-Scripts/refs/heads/greasyfork/The%20Ultimate%20JavaScript%20Search%20Machine%20by%20SleepyyNet.js
-// @updateURL    https://raw.githubusercontent.com/SleepyyDotNet/FlatMMO-Scripts/refs/heads/greasyfork/The%20Ultimate%20JavaScript%20Search%20Machine%20by%20SleepyyNet.js
+// @downloadURL  https://github.com/SleepyyDotNet/FlatMMO-Scripts/raw/refs/heads/greasyfork/SleepyyNet/Scripts/The%20Ultimate%20JavaScript%20Search%20Machine%20(v.2.13)%20by%20SleepyyNet.js
+// @updateURL    https://raw.githubusercontent.com/SleepyyDotNet/FlatMMO-Scripts/refs/heads/greasyfork/The%20Ultimate%20JavaScript%20Search%20Machine%20(v.2.13)%20by%20SleepyyNet.js
 // @license      MIT
 // ==/UserScript==
 
