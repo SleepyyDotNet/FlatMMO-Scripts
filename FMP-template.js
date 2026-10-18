@@ -9,6 +9,16 @@
 // @grant        none
 // @require      https://update.greasyfork.org/scripts/544062/FlatMMOPlus.js
 // ==/UserScript==
+
+/**
+ * @typedef {Object} ChatData
+ * @property {string} username
+ * @property {string} tag
+ * @property {string} sigil
+ * @property {string} color
+ * @property {string} message
+ * @property {boolean} yell
+ */
  
 (function() {
     'use strict';
@@ -105,13 +115,19 @@
         }
         
         
-        //Receives all messages sent by the game server
+        /**
+         * Receives all messages sent by the game server
+         * @param {string} data 
+         */
         onMessageReceived(data) {
             // Will spam the console, uncomment if you want to see it
             //console.log("SamplePlugin.onMessageReceived: ", data);
         }
-        
-        //This is called on pm, local and global chat messages
+
+        /**
+         * This is called on pm, local and global chat messages
+         * @param {ChatData} data 
+         */
         onChat(data) {
             //This is how data is passed:
             const chatData = {
